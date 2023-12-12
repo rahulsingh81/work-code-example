@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "sourceMap": true,
+        "target": "es2018",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "declaration": true,
+        "pretty": true,
+        "noEmitOnError": true,
+        "strict": false,
+        "resolveJsonModule": true,
+        "removeComments": true,
+        "newLine": "lf",
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noFallthroughCasesInSwitch": true,
+        "useDefineForClassFields": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "lib": ["esnext"],
+        "esModuleInterop": true,
+        "baseUrl": "."
+    },
+    "ts-node": {
+        "transpileOnly": true
+    }
+}
